@@ -10,5 +10,8 @@ const updateColor = () => {
 document.querySelector('#red').addEventListener('click', updateColor)
 document.querySelector('#blue').addEventListener('click', updateColor)
 document.querySelector('#green').addEventListener('click', updateColor)
+document.querySelector('#red').addEventListener('touchend', updateColor)
+document.querySelector('#blue').addEventListener('touchend', updateColor)
+document.querySelector('#green').addEventListener('touchend', updateColor)
 
 updateColor()
