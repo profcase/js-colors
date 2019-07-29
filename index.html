@@ -13,8 +13,6 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <!-- scripts in head for mobile -->
-  <script defer src="main.js"></script>
 </head>
 
 <body>
@@ -22,11 +20,11 @@
   <main class="container mt-3">
     <article class="row">
 
-      <section class="col-md-4">
+      <section class="col-sm-4">
         <h1>Change Color</h1>
       </section>
 
-      <section class="col-md-4">
+      <section class="col-sm-4">
 
         <fieldset>
           <label for="red">Red</label>
@@ -45,12 +43,21 @@
 
       </section>
 
-      <section class="col-md-4">
-        <canvas id="canvas" width="100" height="100"></canvas>
+      <section class="col-sm-4">
+        <canvas id="canvas" width="100" height="100" style="border:1px solid #000000;"></canvas>
       </section>
 
     </article>
+
   </main>
+
+  <footer class="container m-3">
+    <a href="https://profcase.github.io/js-console/">Demo</a>
+    &#9670;
+    <a href="https://github.com/profcase/js-console">Source</a>
+  </footer>
+
+  <script src="main.js"></script>
 
 </body>
 
